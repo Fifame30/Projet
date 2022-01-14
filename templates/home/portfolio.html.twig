@@ -1,0 +1,103 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Portfolio{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Administrer</div>
+                <div class="card-body">
+                    <h4 class="card-title">Administrer les réseaux et l'internet</h4>
+                    <ul>
+                        <li>
+                            <p class="card-text"> 		
+                            Configurer les fonctions de base du réseau local (Ethernet, IPv4, intro IPv6, commutation, VLANs, routage statique)
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="card-text"> 		
+                            Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour la configuration et administration des réseaux et services fournis (DHCP, DNS, ...)
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="card-text"> 		
+                            Installer un poste client (et le sécuriser: antivirus, parefeu, comptes, ...)
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="col-4">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Connecter</div>
+                <div class="card-body">
+                   <h4 class="card-title">Connecter les entreprises et les usagers</h4>
+                   <ul>
+                       <li>
+                           <p class="card-text">Mesurer et analyser les signaux (audio et vidéo,comprendre la dualité temps/fréquence,grandeurs et utiliser des équipements d’analyse spectrale, avec projets autour de la chaîne d’acquisition/traitement)</p>
+                           <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </li>
+                       <li>
+                           <p class="card-text">Déployer des supports de transmission (traitement au choix de la propagation, câblage, fibre optique, ou une introduction à l’IoT)</p>
+                           <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </li>
+                       <li><p class="card-text">Caractériser des systèmes de transmissions élémentaires</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Programmer</div>
+                <div class="card-body">
+                    <h4 class="card-title">Créer des outils et applications informatiques pour les R&T</h4>
+                    <ul>
+                        <li>
+                            <p class="card-text">Connaître l’architecture et les technologies d’un site Web (Langages et outils : HTML, CSS, CMS, JS, responsive)</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="card-text">Traduire un algorithme, dans un langage et pour un environnement donné ( peut inclure plusieurs objet)</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="card-text">Utiliser un système informatique et ses outils (intro système, fichiers,CLI,zips,outils collaboratifs, hygiène informatique)</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  
+  
+    </div>
+</div>
+{% endblock %}
+
