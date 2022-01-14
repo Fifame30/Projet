@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Accueil{% endblock %}
 
 {% block body %}
 <style>
@@ -8,7 +8,51 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<div id="Accueil">
-        <img src="/IMG.jpg" alt="image">
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                Nom
+                <span class="badge bg-primary rounded-pill">AYADJI</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                Prénom
+                <span class="badge bg-primary rounded-pill">Fifamè</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                Contacts
+                <span class="badge bg-primary rounded-pill">O678763170</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                Adresse
+                <span class="badge bg-primary rounded-pill">15 Rue Fontenille</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                E-Mail
+                <span class="badge bg-primary rounded-pill">fifame.gloria.valles.ayadji@etu.univ-st-etienne.fr</span>
+                </li>
+                <form>
+                    <fieldset>
+                      <legend>Inscription</legend>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                    </fieldset>
+            </ul>
+        </div>
+        <div class="col-6">
+            <div id="Accueil">
+                <img src="/IMG.jpg" alt="image">
+            </div>
+        </div>
+    </div>
 </div>
+
 {% endblock %}
