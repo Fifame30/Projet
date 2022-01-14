@@ -18,8 +18,8 @@ class HomeController extends AbstractController
         ]);
     }
 
-      /**
-     * @Route("/cv", name="cv")
+    /**
+     * @Route("/Moncv", name="Moncv")
      */
     public function cv(): Response
     {
@@ -28,7 +28,7 @@ class HomeController extends AbstractController
         ]);
     }
 
-      /**
+    /**
      * @Route("/portfolio", name="portfolio")
      */
     public function portfolio(): Response
@@ -38,7 +38,7 @@ class HomeController extends AbstractController
         ]);
     }
 
-      /**
+    /**
      * @Route("/about", name="about")
      */
     public function about(): Response
