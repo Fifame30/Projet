@@ -1,6 +1,7 @@
-#Accueil img
+#Accueil
 {
-	width:700px;
+	background-image: url("tablet-g820b846a7_640.png");
+    background-size: cover;
 }
 	
 .img-right{
@@ -11,8 +12,33 @@
 {
     color:black;
     background-color:white;
-    background-image:url(CV.jpeg);
+    background-image:url(cv.png);
     margin:0;
     width:1400px;
     background-position:center center;
+}
+
+.margin-top{
+    margin-top: 5px;
+}
+
+.Img-responsive{
+    width: 100%;
+    height: auto;
+}
+.img-frame{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.img-frame-bg{
+    width: 100%;
+    height:auto;
+}
+.img-content{
+    position:absolute;
+    top:25%;
+    right:-60%;
+    width:40%;
+    height:auto;
 }
