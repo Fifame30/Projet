@@ -8,51 +8,60 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
+
 <div class="container">
-    <div class="row">
-        <div class="col-6">
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                Nom
-                <span class="badge bg-primary rounded-pill">AYADJI</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                Prénom
-                <span class="badge bg-primary rounded-pill">Fifamè</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                Contacts
-                <span class="badge bg-primary rounded-pill">O678763170</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                Adresse
-                <span class="badge bg-primary rounded-pill">15 Rue Fontenille</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                E-Mail
-                <span class="badge bg-primary rounded-pill">fifame.gloria.valles.ayadji@etu.univ-st-etienne.fr</span>
-                </li>
-                <form>
-                    <fieldset>
-                      <legend>Inscription</legend>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <div id="Accueil">
+        <div class="row">
+           <div class="col-6">
+               <div class="img-frame">
+                    <img class="img-frame-bg" src="/tablet-g820b846a7_640.png" alt="image">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-lg btn-primary" type="button">Enter E-Mail</button>
+                        <button class="btn btn-lg btn-primary" type="button">Enter Password</button>
+                        <button type="button" class="btn btn-primary btn-sm">Se connecter</button>
+                    </div>
+                    <div class="img-content card text-white bg-primary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">Présentation</div>
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                   <span class="badge bg-primary">  Nom</span>
+                                   <span class="badge bg-secondary">AYADJI</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                   <span class="badge bg-primary">Prénom</span>
+                                   <span class="badge bg-secondary">Fifamè</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="badge bg-primary">Contacts</span>
+                                    <span class="badge bg-secondary">0678763170</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="badge bg-primary">Adresse</span>
+                                    <span class="badge bg-secondary">15 Rue Fontenille</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="badge bg-primary">E-Mail</span>
+                                    <span class="badge bg-secondary">fifame.gloria.valles.ayadji@etu.univ-st-etienne.fr</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                    </fieldset>
-            </ul>
-        </div>
-        <div class="col-6">
-            <div id="Accueil">
-                <img src="/IMG.jpg" alt="image">
-            </div>
+                    </div>
+               </div>
+           </div>
         </div>
     </div>
 </div>
+
+                               
+
 
 {% endblock %}
