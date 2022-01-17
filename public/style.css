@@ -11,8 +11,8 @@
 #Image img
 {
     color:black;
-    background-color:white;
-    background-image:url(cv.png);
+    background-color:white
+    background-image:url(Moncv.png);
     margin:0;
     width:1400px;
     background-position:center center;
@@ -41,4 +41,7 @@
     right:-60%;
     width:40%;
     height:auto;
+}
+.lien{
+    right:-60%
 }
